@@ -1,0 +1,640 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+	font-size: 0;
+}
+a{
+	text-decoration: none;		
+}
+body{
+	background-color: #d94343;
+	font-family: PingFangSC-Light,'STHeiti Light','helvetica neue','hiragino sans gb',
+	arial,'microsoft yahei ui','microsoft yahei',simsun,sans-serif;
+}
+
+.banner-section{
+	width: 100%;
+	height: 620px;
+	background-image: url(../img/banner-01.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.banner-content{
+	position: relative;
+	width: 1000px;
+	margin:0 auto;
+}
+.logo-link{
+	position: absolute;
+	top: 35px;
+	left: 14px;
+	display: inline-block;
+	width: 94px;
+	height: 35px;
+	background-image: url(../img/logo-text.png);
+	background-repeat: no-repeat;
+}
+.banner-jike{
+	position: absolute;
+	left: 241px;
+	top: 258px;
+	display: inline-block;
+	width: 120px;
+	height: 44px;
+	background-image: url(../img/极客学院.png);
+}
+.banner-activity_time{
+	position: absolute;
+	top: 458px;
+	left: 283px;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing:0.5px;
+	color: #b82b2b;
+
+}
+.banner-sponsor-list{
+	position: absolute;
+	right: 28px;
+	top: 557px;
+}
+.banner-sponsor-list>a{
+	display: inline-block;
+	margin-right: 8px;
+	vertical-align: top;
+}
+.banner-sponsor-list>p{
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 10px;
+	margin-left: 4px;
+	vertical-align: top;
+}
+
+
+.contanter{
+	position: relative;
+}
+
+.vip-section{
+	
+
+}
+
+
+.vip-content{
+	position: relative;
+	width: 1000px;
+	margin:0 auto;
+	padding-top: 33px;
+	padding-bottom: 19px;
+	text-align: center;
+}
+/*.float-section{
+	position: fixed;
+	display: inline-block;
+	top: 0px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+	background-color: #ff6700;
+}*/
+.vip-title{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+.vip-title:before{
+	position: absolute;
+	top: 15px;
+	left: -50px;
+	content: '';
+	width: 23px;
+	height: 30px;
+	background-image: url(../img/arrows-left.png);
+}
+.vip-title:after{
+	position: absolute;
+	top: 15px;
+	right: -50px;
+	content: '';
+	width: 23px;
+	height: 30px;
+	background-image: url(../img/arrows-right.png);
+}
+
+.vip-title>img{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+.vip-text{
+	display: inline-block;
+	vertical-align: top;
+}
+.vip-text>h2{
+	font-size: 30px;
+	line-height: 30px;
+	color: #fff;
+}
+.vip-text>p{
+	font-size: 16px;
+	line-height: 16px;
+	color: #fff99c;
+	margin-top: 9px;
+}
+.vip-text>p>span{
+	display: inline-block;
+	width: 66px;
+	height: 22px;
+	font-size: 16px;
+	color: #fff99c;
+	background-color: #b20000;
+}
+
+
+.vip-list{
+	margin-top: 26px;
+}
+.vip-item.step1{
+	display: inline-block;
+	width: 400px;
+	height: 225px;
+	margin-right: 20px;
+	padding-top: 14px;
+	background-image: url(../img/vip-01.png);
+	vertical-align: top;
+	
+}
+.vip-item-text{
+	display: inline-block;
+	width: 51%;
+}
+.vip-item-top{
+	text-align: left;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 12px;
+	margin-left: 20px;
+}
+.vip-item-desc{
+	text-align: left;
+	font-size: 30px;
+	color: #fff99c;
+	margin-bottom: 29px;
+	margin-left: 20px;
+}
+.vip-item-text>p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+	text-align: left;
+	margin-left: 20px;
+}
+.vip-item-text>p:before{
+	content: '';
+	display: inline-block;
+	width: 17px;
+	height: 15px;
+	background-image: url(../img/die-01.png);
+	vertical-align: middle;
+	margin-right: 7px;
+}
+.vip-price{
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	text-align: center;
+
+}
+.vip-price>p{
+	font-size: 56px;
+	color: #25af63;
+	margin-top: 40px;
+}
+.vip-price>p>span{
+	font-size: 25px;
+	font-weight: 600;
+}
+.price-button{
+	display: inline-block;
+  width: 110px;
+	line-height: 40px;
+	background-color: #cccccc;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 2px;
+	margin-top: 20px;
+}
+.price-button.step2{
+	background-color: #5478ed;
+}
+
+
+.vip-item.step2{
+	display: inline-block;
+  width: 580px;
+	height: 225px;	
+	padding-top: 14px;
+	background-image: url(../img/vip-02.png);
+	vertical-align: top;
+}
+.vip-ster2-text{
+	display: inline-block;
+	width: 36%;
+}
+.vip-ster2-text>p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 21px;
+	text-align: left;
+	margin-left: 20px;
+}
+.vip-ster2-text>p:before{
+	content: '';
+	display: inline-block;
+	width: 17px;
+	height: 15px;
+	background-image: url(../img/die-01.png);
+	vertical-align: middle;
+	margin-right: 7px;
+}
+.vip-step2-middle{
+	display: inline-block;
+	width: 32%;
+	vertical-align: top;
+}
+.vip-step2-middle>p{
+	font-size: 56px;
+	color: #5478ed;
+	margin-top: 40px;
+}
+.vip-step2-middle>p>span{
+	font-size: 25px;
+	font-weight: 600;
+}
+
+
+.vip-step2-right{
+	display: inline-block;
+	width: 32%;
+}
+.vip-step2-right>img{
+	margin-left: 7px;
+}
+
+
+.vip-item.step3{
+	position: relative;
+	padding-top: 20px;
+	padding-left: 24px;
+	width: 100%;
+	height: 210px;
+	background-image: url(../img/baige-01.png);
+	margin-top: 20px;
+}
+.vip-item.step3>h4{
+	font-size: 16px;
+	line-height: 16px;
+	color: #35b558;
+	text-align: left;
+	margin-bottom: 7px;
+}
+.vip-item.step3>h4:before{
+	content: '';
+	display: inline-block;
+	width: 13px;
+	height: 20px;
+	background-image: url(../img/qizi-01.png);
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.vip-item.step3>ul>li{
+	text-align: left;
+	font-size: 16px;
+	color: #333;
+	line-height: 24px;
+	/*font-weight: 600;*/
+	list-style-type: none;
+}
+.vip-item_step3-img{
+	position: absolute;
+	bottom: 0;
+	right: 73px;
+}
+
+.consult-section{
+	padding-top: 33px;
+	padding-bottom: 40px;
+}
+.consult-content{
+	width: 1000px;
+	margin:0 auto;
+	text-align: center;
+
+}
+.consult-list{
+	margin-top: 38px;
+
+}
+.consult-item{
+	position: relative;
+	display: inline-block;
+	width: 49%;
+	height: 430px;
+	vertical-align: top;
+}
+.consult-item.step1{
+	margin-right: 20px;
+}
+.consult-item-top{
+	width: 100%;
+	height: 180px;
+}
+.consult-item-top:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	width: 118px;
+	height: 65px;
+	background-image: url(../img/POMO-01.png);
+	background-size: cover;
+
+}
+.consult-item.step2 .consult-item-top:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	width: 116px;
+	height: 66px;
+	background-image: url(../img/POMO-02.png);
+	background-size: cover;
+
+}
+.consult-item.step1 .consult-item-top{
+	background-color: #35b558;
+	text-align: center;
+	border-bottom: 1px solid #35b558;
+}
+.consult-item-title{
+	font-size: 20px;
+	color: #fff;
+	padding-top: 30px;
+}
+.consult-item-top .comsult-top-list{
+	margin-top: 30px;
+	text-align: center;
+}
+.comsult-top-item{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: #fff;
+	border-radius: 3px;
+	text-align: center;
+	padding-top: 15px;
+	margin-right: 15px;
+	vertical-align: top;
+}
+.comsult-top-item:last-child{
+	margin-right: 0;
+}
+.comsult-top-item .desc{
+	font-size: 35.52px;
+	color: #35b558;
+	vertical-align: top;
+	
+}
+.comsult-top-item .desc >i{
+	font-size: 14px;
+	color: #35b558;
+	font-style: normal;
+	font-weight: 600;
+	margin-left: 3px;
+
+}
+.comsult-top-item>span{
+	font-size: 12px;
+	color: #808080;
+	vertical-align: top;
+}
+
+
+.consult-item-middle{
+	position: relative;
+	width: 100%;
+	height: 122px;
+	background-color: #fff;
+
+}
+.consult-item-middle:before{
+	position: absolute;
+	top: 19px;
+	left: 50%;
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 90px;
+	background-color: #e7e7e7;
+}
+.item-middle-box{
+	position: relative;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+.item-middle-box:before{
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	left: 6px;
+	display: inline-block;
+	width: 205px;
+	height: 1px;
+	background-color: #e7e7e7;
+
+}
+.item-middle-box>p{
+	font-size: 14px;
+	color: #35b558;
+	margin-top: 24px;
+	margin-bottom: 22px;
+}
+.item-middle-link{
+	display: inline-block;
+	width: 110px;
+	height: 40px;
+	background-color: #35b558;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+.consult-item-bottom{
+	width: 100%;
+	height: 130px;
+	background-color: #fff;
+	padding-top: 13px;
+	padding-left: 32px;
+}
+.consult-item-bottom>p{
+	font-size: 14px;
+	color: #808080;
+	line-height: 27px;
+	text-align: left;
+}
+
+.item-bottom-phone{
+	display: inline-block;
+	margin-top: 15px;
+	position: relative;
+}
+.item-bottom-phone:after{
+	position: absolute;
+	top: 6px;
+	right: 34px;
+	display: inline-block;
+	content: '咨询电话: 400 6788 266';
+	font-size: 14px;
+	color: #d94343;
+	font-weight: 600;
+}
+
+.consult-item.step2 .consult-item-top{
+	background-color: #5478ed;
+}
+.consult-item.step2 .consult-item-title{
+	font-size: 24px;
+	color: #fff;
+	line-height: 24px;
+}
+.consult-item.step2 .item-top-list{
+	margin-top: 30px;
+}
+.consult-item.step2 .item-top-item{
+	position: relative;
+	display: inline-block;
+	width: 50%;
+}
+.item-top-item.left>h4{
+	font-size: 12px;
+	color: #fff99c;
+	margin-top: 9px;
+}
+.item-top-item.left>h4:before{
+	content: '';
+	display: inline-block;
+	width: 190px;
+	height: 1px;
+	background-color: #aabcf6;
+	position: absolute;
+	top: 0;
+	left: 28px;
+}
+.item-top-item.left>h4:after{
+	content: '';
+	display: inline-block;
+	width: 190px;
+	height: 1px;
+	background-color: #aabcf6;
+	position: absolute;
+	top: 31px;
+	left: 28px;
+}
+.item-top-item.left>p{
+	font-size: 36px;
+	line-height: 36px;
+	color: #fff99c;
+	margin-top: 11px;
+}
+.item-top-item.left>p>span{
+	font-size: 17px;
+}
+.item-top-item.left>p>s{
+	font-size: 25px;
+	color:#aab9c4;
+}
+.item-top-item.left>p>s>i{
+	font-size: 12px;
+}
+.item-top-item.right{
+	height: 80px;
+	background-color: #fff99c;
+	vertical-align: top;
+	padding-top: 9px;
+	padding-left: 15px;
+}
+.item-top-item.right:after{
+	position: absolute;
+	bottom: -11px;
+	right: 5px;
+	content: '';
+	display: inline-block;
+	width: 47px;
+	height: 44px;
+	background-image: url(../img/icon-03.png);
+}
+.item-top-item.right>p{
+	font-size: 14px;
+	color: #d94343;
+	text-align: left;
+}
+.item-top-item.right>p:before{
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 13px;
+	background-image: url(../img/die-02.png);
+	margin-right: 7px;
+	vertical-align: middle;
+}
+.consult-item.step2  .item-middle-box>p{
+	color: #5478ed;
+}
+.consult-item.step2  .item-middle-box .item-middle-link{
+	background-color: #5478ed;
+}
+.consult-item.step2  .consult-item-bottom{
+	padding-left: 32px;
+	padding-right: 50px;
+
+}
+.consult-item.step2  .consult-item-bottom>p{
+	font-size: 14px;
+	color: #808080;
+	line-height: 24px;
+	margin-bottom: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #f3f3f3;
+	text-align: center;
+}
+footer>p{
+	font-size: 12px;
+	color: #888888;
+	line-height: 80px;
+}
+footer>p>a{
+	font-size: 12px;
+	color: #888888;
+}
